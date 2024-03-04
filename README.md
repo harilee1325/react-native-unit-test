@@ -26,6 +26,12 @@ Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _roo
 
 ```bash
 # using npm
+npm install --save-dev jest @testing-library/react-native @types/jest
+
+npm install --save-dev @testing-library/jest-native
+
+npm install --save-dev metro-react-native-babel-preset
+
 npm run android
 
 # OR using Yarn
